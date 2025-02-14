@@ -3,6 +3,16 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
+import HTML_logo from '../assets/html-5.svg';
+import CSS_logo from '../assets/css-3.svg';
+import JS_logo from '../assets/javascript.svg';
+import Tailwind_logo from '../assets/tailwindcss-icon.svg';
+import React_logo from '../assets/react.svg';
+import Python_logo from '../assets/python.svg';
+import Ruby_logo from '../assets/ruby.svg';
+import Java_logo from '../assets/java.svg';
+import Node_logo from '../assets/nodejs-icon-alt.svg';
+
 const Skillset = () => {
   const settings = {
     dots: true,
@@ -41,12 +51,12 @@ const Skillset = () => {
             <div className="flex flex-col items-center p-6 space-y-6 rounded-lg bg-slate-500 mt-12 border-10 border-gray-700 w-80 h-70">
               <div className="flex justify-between">
                 <img
-                  src="../src/assets/html-5.svg"
+                  src={HTML_logo}
                   className="w-16 h-16 -mt-4 rounded-lg drop-shadow-xl"
                   alt="HTML5"
                 />
                 <img
-                  src="../src/assets/css-3.svg"
+                  src={CSS_logo}
                   className="w-16 h-16 -mt-4 rounded-lg drop-shadow-xl"
                   alt="CSS3"
                 />
@@ -62,7 +72,7 @@ const Skillset = () => {
             <div className="flex flex-col items-center p-6 space-y-6 rounded-lg bg-slate-500 mt-12 border-10 border-gray-700 w-80 h-70">
               <div className="flex justify-between">
                 <img
-                  src="../src/assets/javascript.svg"
+                  src={JS_logo}
                   className="w-16 h-16 -mt-4 drop-shadow-xl"
                   alt="JAVASCRIPT"
                 />
@@ -79,7 +89,7 @@ const Skillset = () => {
             <div className="flex flex-col items-center p-6 space-y-6 rounded-lg bg-slate-500 mt-12 border-10 border-gray-700 w-80 h-70">
               <div className="flex justify-between">
                 <img
-                  src="../src/assets/tailwindcss-icon.svg"
+                  src={Tailwind_logo}
                   className="w-16 h-16 -mt-4 rounded-lg drop-shadow-xl"
                   alt="TAILWINDCSS"
                 />
@@ -96,7 +106,7 @@ const Skillset = () => {
             <div className="flex flex-col items-center p-6 space-y-6 rounded-lg bg-slate-500 mt-12 border-10 border-gray-700 w-80 h-70">
               <div className="flex justify-between">
                 <img
-                  src="../src/assets/react.svg"
+                  src={React_logo}
                   className="w-16 h-16 -mt-4 rounded-lg drop-shadow-xl"
                   alt="REACT.JS"
                 />
@@ -114,7 +124,7 @@ const Skillset = () => {
             <div className="flex flex-col items-center p-6 space-y-6 rounded-lg bg-slate-500 mt-12 border-10 border-gray-700 w-80 h-70">
               <div className="flex justify-between">
                 <img
-                  src="../src/assets/python.svg"
+                  src={Python_logo}
                   className="w-16 h-16 -mt-4 rounded-lg drop-shadow-xl"
                   alt="PYTHON"
                 />
@@ -131,7 +141,7 @@ const Skillset = () => {
             <div className="flex flex-col items-center p-6 space-y-6 rounded-lg bg-slate-500 mt-12 border-10 border-gray-700 w-80 h-70">
               <div className="flex justify-between">
                 <img
-                  src="../src/assets/ruby.svg"
+                  src={Ruby_logo}
                   className="w-16 h-16 -mt-4 drop-shadow-xl"
                   alt="RUBY"
                 />
@@ -147,7 +157,7 @@ const Skillset = () => {
             <div className="flex flex-col items-center p-6 space-y-6 rounded-lg bg-slate-500 mt-12 border-10 border-gray-700 w-80 h-70">
               <div className="flex justify-between">
                 <img
-                  src="../src/assets/java.svg"
+                  src={Java_logo}
                   className="w-16 h-16 -mt-4 rounded-lg drop-shadow-xl"
                   alt="JAVA"
                 />
@@ -165,7 +175,7 @@ const Skillset = () => {
             <div className="flex flex-col items-center p-6 space-y-6 rounded-lg bg-slate-500 mt-12 border-10 border-gray-700 w-80 h-70">
               <div className="flex justify-between">
                 <img
-                  src="../src/assets/nodejs-icon-alt.svg"
+                  src={Node_logo}
                   className="w-16 h-16 -mt-4 rounded-lg drop-shadow-xl"
                   alt="NODE.JS"
                 />
